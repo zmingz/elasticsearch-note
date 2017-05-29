@@ -5,11 +5,13 @@
 安装[elasticsearch-rtf](https://github.com/medcl/elasticsearch-rtf)，注意安装路径不能有中文，不然会安装不成功<br>
 安装[elasticsearch-head](https://github.com/mobz/elasticsearch-head)<br>
 安装`node.js`, `npm`<br>
-修改elasticsearch-5.1.1/config文件elasticsearch.yml，最后添加上以下代码<br>
-  http.cors.enabled : true <br>
-	http.cors.allow-origin : "*" <br>
-	http.cors.allow-methods : OPTIONS, HEAD, GET, POST, PUT, DELETE <br>
-	http.cors.allow-headers : "X-Requested-With, Content-Type, Content-Length, X-User" <br>
+修改elasticsearch-5.1.1/config路径的elasticsearch.yml文件，最后添加上以下代码<br>
+  	
+	http.cors.enabled : true 
+	http.cors.allow-origin : "*" 
+	http.cors.allow-methods : OPTIONS, HEAD, GET, POST, PUT, DELETE 
+	http.cors.allow-headers : "X-Requested-With, Content-Type, Content-Length, X-User" 
+	
 安装[Kibana 5.1.1](https://www.elastic.co/downloads/past-releases/kibana-5-1-1)，注意安装的版本要与elasticsearch一致 <br>
 
 启动elasticsearch:
